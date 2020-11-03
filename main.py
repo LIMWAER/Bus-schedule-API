@@ -9,4 +9,3 @@ page = requests.get(url)
 soup = BeautifulSoup(page.text, 'html.parser')
 
 div = soup.find("div", class_="list-group")
-print(div)
